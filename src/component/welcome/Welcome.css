@@ -1,0 +1,67 @@
+.Welcome-bg{
+    min-height: 100vh;
+    background: rgb(13, 16, 21);
+    /* background: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Welcome-layout{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Welcome-box{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Welcome-title{
+    display: flex;
+    justify-content: center;
+}
+
+.Welcome-reference{
+    display: flex;
+    justify-content: center;
+}
+
+.Welcome-description{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Welcome-down-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Welcome-down{
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+p.Welcome-heading {
+    color: aliceblue;
+    text-align: center;
+}
+
+p.Welcome-text {
+    color: rgb(217, 243, 255);
+    text-align: center;
+}
+

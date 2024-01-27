@@ -1,0 +1,33 @@
+.Header-box{
+    display: flex;
+    position: fixed;
+    top: 0;
+    background: rgb(13, 16, 21, 0.8);
+    z-index: 1;
+    width: 100%;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.Header-left{
+    display: flex;
+    align-self: flex-start;
+}
+
+.Header-right {
+    display: flex;
+    align-self: flex-end;
+}
+
+.Header-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+p.Header-text{
+    color: #fff;
+}
+
